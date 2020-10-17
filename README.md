@@ -6,6 +6,15 @@
 
 -----------------------------------
 ## A. Display Filter
+
+### Soal 1 :
+### webserver yang digunakan pada "testing.mekanis.me” adalah sebagai berikut :
+## Jawab : 
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767120694264725523/unknown.png)
+<br />
+>Data yang awalnya sebelum dilakukan filter adalah seperti gambar diatas
+
 ### Soal 6 :
 ### Mendownload dan mengextract suatu zip hingga mendapatkan file dengan nama **OpenThis.pdf**
 ## Jawab : 
