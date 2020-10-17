@@ -1,3 +1,4 @@
-# Jarkom_Modul1_Lapres_T16
-Lapres Praktikum Jaringan Komputer Modul 1 Kelompok T16
-![picture](https://cdn.discordapp.com/attachments/703953460235731064/766931357833101342/unknown.png)
+# **LAPRES MODUL 1** 
+# **KELOMPOK T16**
+## I Gede Pradhana Indra Widnyana (05311840000031)
+## Bagus Farhan Abdillah (05311840000016)
