@@ -43,6 +43,33 @@
 ### Mendownload dan mengextract suatu zip hingga mendapatkan file dengan isi puisi dengan clue file **Yes.pdf**
 ## Jawab : 
 
-![picture](https://cdn.discordapp.com/attachments/691272864644595743/767056880614637588/unknown.png)
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767065517697138719/unknown.png)
 <br />
->awalnya dari data dump yang berasa dari soal,  kami mengolahnya menggunakan syntax untuk memfilter file dengan nama **Answer.zip**, dengan menggunakan syntax ```ftp-data contains Answer.zip``` , maka akan muncul beberapa hasil paket seperti pada gambar diatas
+>Awalnya dari data yang di dump, kami melakukan filtering dengan syntax ```ftp-data contains Yes.pdf``` karena **Yes.pdf** merupakan clue utama pada soal. setelah itu kami menemukan beberapa paket sesuai dengan gambar diatas
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767065713118150686/unknown.png)
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767065782689202196/unknown.png)
+<br />
+>Setelah itu kami melakukan **Follow -> TCP Stream** dan mengecek stream yang kira-kira berisi file **Yes.pdf** dan kebetulan sesuai dengan gambar, kami mencurigai file tersebut ada di dalam stream nomor 442.
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767065924640833536/unknown.png)
+<br />
+>Lalu kami melakukan save as file dengan mengubah tipe stream menjadi **RAW** terlebih dahulu dan menyimpan file dengan nama **No.7**
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767066077728866354/unknown.png)
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767066201359777822/unknown.png)
+<br />
+>Setelah itu kami melakukan exctract dalam file dan mendapati file **Yes.pdf** ada di dalam file zip tersebut. Gambar puisi yang berisi di dalam file **Yes.pdf** dapat dilihat pada gambar diatas
+
+
+
+-----------------------------------
+## B. Capture Filter
+### Soal 11 :
+### Mendownload dan mengextract suatu zip hingga mendapatkan file dengan isi puisi dengan clue file **Yes.pdf**
+## Jawab : 
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767065517697138719/unknown.png)
+<br />
+>Awalnya dari data yang di dump, kami melakukan filtering dengan syntax ```ftp-data contains Yes.pdf``` karena **Yes.pdf** merupakan clue utama pada soal. setelah itu kami menemukan beberapa paket sesuai dengan gambar diatas
+
