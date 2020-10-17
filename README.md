@@ -1,8 +1,9 @@
-# **LAPRES MODUL 1** 
+# **LAPRES_MODUL 1_JARKOM** 
 -----------------------------------
 ## **KELOMPOK T_16**
-## I Gede Pradhana Indra Widnyana (05311840000031)
 ## Bagus Farhan Abdillah (05311840000016)
+## I Gede Pradhana Indra Widnyana (05311840000031)
+
 -----------------------------------
 ## A. Display Filter
 ### Soal 6 :
