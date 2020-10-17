@@ -111,8 +111,56 @@
 ### Melakukan filter sehingga wireshark hanya menampilkan paket yang menuju port 443 (Data hanya untuk web https karena port 443 adalah port https)
 ## Jawab : 
 
-![picture](https://cdn.discordapp.com/attachments/691272864644595743/767083044477337640/unknown.png)
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767087800457494628/unknown.png)
 <br />
->Awalnya kami melakukan **Capture Filter** dengan menggunakan syntax ```src port 80``` . menggunakan src karena src merupakan kepanjangan dari **source** yang dimana paket yang ditampilkan adalah paket yang berasal dari port 80
+>Awalnya kami melakukan **Capture Filter** dengan menggunakan syntax ```dst port 443``` . menggunakan dst karena dst merupakan kepanjangan dari **destination** yang dimana paket yang ditampilkan adalah paket yang menuju ke port 443
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767088045119766528/unknown.png)
+<br />
+>Selanjutnya kami membuka website ```https://www.google.com/``` . kami mencoba di google.com karena website tersbut adalah salah satu website yang menggunakan **https** sehingga menggunakan **Port 443** sesuai dengan permintaan soal
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767088162555428874/unknown.png)
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767088269892255795/unknown.png)
+<br />
+>Setelah kami melakukan akses ke website dengan **https** , maka akan terlihat log paket seperti pada gambar diatas. untuk mengetahui apakah paket tersebut semuanya menuju ke **Port 443** dapat dilihat digambar diatas yang dimana paket menuju ke **Port 443 yang berasal dari Port X**
+
+### Soal 14 :
+### Melakukan filter sehingga wireshark hanya mengambil paket yang berasal dari ip kami (dalam hal ini ip kami : 192.168.100.109)
+## Jawab : 
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767089825932640296/unknown.png)
+<br />
+>Kami melakukan pencarian ip kami dan menemukan ip kami dengan menggunakan ```ipconfig``` pada **cmd** seperti gambar diatas
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767089871990554654/unknown.png)
+<br />
+>kami melakukan capture filter dengan menggunakan syntax ```src host 192.168.100.109``` yang dimana **src** adalah **source** yang berasal dari **host 192.168.100.109** yang dimana ip tersebut adalah ip kami pada saat melakukan test sebelumnya
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767089912977031198/unknown.png)
+<br />
+>Setelah melakukan beberapa kegiatan dalam browser, kami mendapatkan hasil capture filter yang sesuai dengan soal seperti gambar diatas.
+
+### Soal 15 :
+### Melakukan filter sehingga wireshark hanya mengambil paket yang tujuannya ke **monta.if.its.ac.id**
+## Jawab : 
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767091747569795122/unknown.png)
+<br />
+>Pertama, karena yang diminta adalah paket yang **tujuannya ke monta.if.its.ac.id** maka kami menggunakan syntax ```dst monta.if.its.ac.id``` karena **dst** adalah kepanjangan dari **destination** ke **monta.if.its.ac.id**
+
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767091857241931806/unknown.png)
+<br />
+>Gambar diatas adalah hasil capture paket **sebelum** kami mengakses website **monta.if.its.ac.id**
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767091950515257354/unknown.png)
+<br />
+>Gambar diatas adalah gambar disaat kami mengakses website **monta.if.its.ac.id**
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767092099937468426/unknown.png)
+<br />
+>Setelah mengakses website **monta.if.its.ac.id**, maka kami menemukan banyak paket yang **Tujuannya** adalah ke **monta.if.its.ac.id**
+
 
 
