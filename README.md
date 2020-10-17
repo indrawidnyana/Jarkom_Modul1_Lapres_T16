@@ -130,7 +130,7 @@
 ### Melakukan filter sehingga wireshark hanya mengambil paket yang berasal dari ip kami (dalam hal ini ip kami : 192.168.100.109)
 ## Jawab : 
 
-![picture](https://cdn.discordapp.com/attachments/691272864644595743/767089825932640296/unknown.png)
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767093867983667200/unknown.png)
 <br />
 >Kami melakukan pencarian ip kami dan menemukan ip kami dengan menggunakan ```ipconfig``` pada **cmd** seperti gambar diatas
 
