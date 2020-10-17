@@ -8,12 +8,98 @@
 ## A. Display Filter
 
 ### Soal 1 :
-### webserver yang digunakan pada "testing.mekanis.me” adalah sebagai berikut :
+### Webserver yang digunakan pada "testing.mekanis.me” adalah sebagai berikut :
 ## Jawab : 
 
 ![picture](https://cdn.discordapp.com/attachments/767120480167133215/767120694264725523/unknown.png)
 <br />
->Data yang awalnya sebelum dilakukan filter adalah seperti gambar diatas
+>Data yang awalnya sebelum dilakukan filter adalah seperti gambar diatas.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767121175490199572/unknown.png)
+<br />
+>Selanjutnya kami melakukan filter dengan syntax ```http.host==”testing.mekanis.me``` seperti gambar diatas.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767121774604976138/unknown.png)
+<br /> 
+>Selanjutnya kami melakukan follow paket dengan melakukan **Follow -> TCP Stream** seperti gambar diatas.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767122242265939978/unknown.png)
+<br />
+>Lalu akan muncul window baru setelah metode follow tersebut dan dapat dilihat bahwa server yang digunakan adalah **Nginx/1.14.0 (ubuntu)**.
+
+### Soal 2 :
+### Mendownload gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"
+## Jawab :
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767120694264725523/unknown.png)
+<br />
+>Data yang awalnya sebelum dilakukan filter adalah seperti gambar diatas.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767123028152025119/unknown.png)
+<br />
+>Selanjutnya kami melakukan filter dengan syntax ```http.request.uri contain Tim```. Maka akan muncul seperti gambar diatas.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767123580047327242/unknown.png)
+<br /> 
+>Pilih paket yang akan di download dengan cara klik **File -> Export Object -> Http** pada menu bar dan akan keluar tab baru seperti gambar diatas.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767124298535665695/unknown.png)
+<br />
+>Ketik Nama file yang akan diunduh pada kolom text filter lalu klik save.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767124776401502228/Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg)
+<br />
+>Dan gambar diatas merupakan hasil dari gambar yang telah diunduh.
+
+### Soal 3 :
+### Mencari username dan password ketika login di "ppid.dpr.go.id"**
+## Jawab : 
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767120694264725523/unknown.png)
+<br />
+>Data yang awalnya sebelum dilakukan filter adalah seperti gambar diatas.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767125471573573662/unknown.png)
+<br />
+>Selanjutnya kami melakukan filter dengan syntax ```http.request.uri contains "login”``` seperti gambar diatas.
+
+![picture](https://discordapp.com/channels/544462923221696532/767120480167133215/767125820170567710)
+<br />
+>Lalu kami menemukan login dan password pada ppid.dpr.go.id pada paket yang kami tandai seperti gambar diatas.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767125471573573662/unknown.png)
+<br />
+>Selanjutnya dari data paket diatas, lihat pada kolom HTML from URL terdapat item yaitu **username = 10pemuda dan password = guncangdunia**.
+
+### Soal 4 :
+### Mencari paket dari web-web yang menggunakan basic authentication method**
+## Jawab : 
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767120694264725523/unknown.png)
+<br />
+>Data yang awalnya sebelum dilakukan filter adalah seperti gambar diatas.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767126640635412480/unknown.png)
+<br />
+>Selanjutnya kami melakukan filter dengan syntax ```http.authbasic``` seperti gambar diatas.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767127074510602250/unknown.png)
+<br />
+>Dan kami menemukan bahwa ```testing.mekanisme.me``` merupakan web pertama yang menggunakan basic authentication.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767127799457644625/unknown.png)
+<br />
+>Dan ```aku.pengen.pw``` merupakan web kedua yang kami temukan menggunakan basic authentication.
+
+### Soal 5 :
+### Mengikuti perintah di ```aku.pengen.pw```, Username dan password bisa didapatkan dari file .pcapng
+## Jawab : 
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767120694264725523/unknown.png)
+<br />
+>Data yang awalnya sebelum dilakukan filter adalah seperti gambar diatas.
+
+
 
 ### Soal 6 :
 ### Mendownload dan mengextract suatu zip hingga mendapatkan file dengan nama **OpenThis.pdf**
