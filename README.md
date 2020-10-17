@@ -1,6 +1,6 @@
 # **LAPRES MODUL 1** 
 -----------------------------------
-## **KELOMPOK T16**
+## **KELOMPOK T_16**
 ## I Gede Pradhana Indra Widnyana (05311840000031)
 ## Bagus Farhan Abdillah (05311840000016)
 -----------------------------------
@@ -69,7 +69,50 @@
 ### Melakukan filter sehingga wireshark hanya mengambil paket yang mengandung port 21 (lokal)
 ## Jawab : 
 
-![picture](https://cdn.discordapp.com/attachments/691272864644595743/767065517697138719/unknown.png)
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767070833817681930/unknown.png)
 <br />
->Awalnya dari data yang di dump, kami melakukan filtering dengan syntax ```ftp-data contains Yes.pdf``` karena **Yes.pdf** merupakan clue utama pada soal. setelah itu kami menemukan beberapa paket sesuai dengan gambar diatas
+>Awalnya kami sudah membuat local user dengan nama **User** yang dimana ini akan kami connect dengan **filezilla dan filezilla** server untuk melakukan pengencekan setiap paket yang lewat ke **Port 21 (lokal)** sesuai dengan gambar diatas
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767071088436969563/unknown.png)
+<br />
+>Selanjutnya kami melakukan remote login pada filezilla sesuai dengan user yang telah kami buat dan karena pada server lokal, port yang tercantum adalah **Port 21** seperti pada gambar diatas
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767071350187360266/unknown.png)
+<br />
+>Gambar diatas merupakan gambar sesudah kami melakukan remote login dengan filezilla dalam mode local server
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767071553329954856/unknown.png)
+<br />
+>Untuk mengetahui paket apa saja yang melalui port 21, maka kami melakukan **Capture filter** dengan menggunakan syntax ```port 21``` sehingga apapun paket ataupun hal yang dilakukan pada port tersebut akan terekan **Log**nya.
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767071735270735872/unknown.png)
+<br />
+>Setelah melakukan beberapa proses baik pengiriman data dari server ataupun sebaliknya, kami mendapatkan semua log paket yang melalui port 21 seperti gambar diatas.
+
+### Soal 12 :
+### Melakukan filter sehingga wireshark hanya mengambil paket yang berasal dari port 80 (Data hanya untuk web http karena port 80 adalah port http)
+## Jawab : 
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767083044477337640/unknown.png)
+<br />
+>Awalnya kami melakukan **Capture Filter** dengan menggunakan syntax ```src port 80``` . menggunakan src karena src merupakan kepanjangan dari **source** yang dimana paket yang ditampilkan adalah paket yang berasal dari port 80
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767083191294885908/unknown.png)
+<br />
+>Selanjutnya kami membuka website ```http://elearning.if.its.ac.id/``` . kami mencoba di elearning IF karena website tersbut adalah salah satu website yang menggunakan **http** sehingga menggunakan **Port 80** sesuai dengan permintaan soal
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767083645114122341/unknown.png)
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767083740299264005/unknown.png)
+<br />
+>Setelah kami melakukan akses ke website dengan **http** , maka akan terlihat log paket seperti pada gambar diatas. untuk mengetahui apakah paket tersebut semuanya berasal dari **Port 80** dapat dilihat digambar diatas yang dimana paket berasal dari **Port 80 menuju ke Port X**
+
+### Soal 13 :
+### Melakukan filter sehingga wireshark hanya menampilkan paket yang menuju port 443 (Data hanya untuk web https karena port 443 adalah port https)
+## Jawab : 
+
+![picture](https://cdn.discordapp.com/attachments/691272864644595743/767083044477337640/unknown.png)
+<br />
+>Awalnya kami melakukan **Capture Filter** dengan menggunakan syntax ```src port 80``` . menggunakan src karena src merupakan kepanjangan dari **source** yang dimana paket yang ditampilkan adalah paket yang berasal dari port 80
+
 
