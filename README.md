@@ -63,7 +63,7 @@
 <br />
 >Selanjutnya kami melakukan filter dengan syntax ```http.request.uri contains "login”``` seperti gambar diatas.
 
-![picture](https://discordapp.com/channels/544462923221696532/767120480167133215/767125820170567710)
+![picture](https://media.discordapp.net/attachments/767120480167133215/767125819930837032/unknown.png)
 <br />
 >Lalu kami menemukan login dan password pada ppid.dpr.go.id pada paket yang kami tandai seperti gambar diatas.
 
@@ -98,6 +98,8 @@
 ![picture](https://cdn.discordapp.com/attachments/767120480167133215/767120694264725523/unknown.png)
 <br />
 >Data yang awalnya sebelum dilakukan filter adalah seperti gambar diatas.
+
+
 
 
 
