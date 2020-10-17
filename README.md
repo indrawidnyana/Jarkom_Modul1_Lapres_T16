@@ -66,7 +66,7 @@
 -----------------------------------
 ## B. Capture Filter
 ### Soal 11 :
-### Mendownload dan mengextract suatu zip hingga mendapatkan file dengan isi puisi dengan clue file **Yes.pdf**
+### Melakukan filter sehingga wireshark hanya mengambil paket yang mengandung port 21 (lokal)
 ## Jawab : 
 
 ![picture](https://cdn.discordapp.com/attachments/691272864644595743/767065517697138719/unknown.png)
