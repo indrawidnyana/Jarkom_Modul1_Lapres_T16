@@ -67,7 +67,7 @@
 <br />
 >Lalu kami menemukan login dan password pada ppid.dpr.go.id pada paket yang kami tandai seperti gambar diatas.
 
-![picture](https://cdn.discordapp.com/attachments/767120480167133215/767125471573573662/unknown.png)
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767126037741568000/unknown.png)
 <br />
 >Selanjutnya dari data paket diatas, lihat pada kolom HTML from URL terdapat item yaitu **username = 10pemuda dan password = guncangdunia**.
 
