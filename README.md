@@ -159,6 +159,30 @@
 <br />
 >Setelah itu kami melakukan exctract dalam file dan mendapati file **Yes.pdf** ada di dalam file zip tersebut. Gambar puisi yang berisi di dalam file **Yes.pdf** dapat dilihat pada gambar diatas
 
+### Soal 10 :
+### Mencari dan Mengunduh file .pdf di wireshark dengan clue "25 50 44 46" dan buka file .pdf tersebut 
+## Jawab : 
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767120694264725523/unknown.png)
+<br />
+>Data yang awalnya sebelum dilakukan filter adalah seperti gambar diatas.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767132945517117460/unknown.png)
+<br />
+>Selanjutnya filter dengan syntax ```tcp contains 25:50:44:46```.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767133110855925800/unknown.png)
+<br />
+>Kemudian kami melakukan **Follow -> TCP Stream**
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767133208684003348/unknown.png)
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767133299353059408/unknown.png)
+<br />
+>Kemudian akan muncul window seperti pada gambar diatas. Dan kami tidak lupa untuk mengganti format data dari ASCII menjadi Raw. Setelah itu save.
+
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767133924932976650/unknown.png)
+<br />
+>Kemudian buka file pdf tersebut dan akan muncul sesuai gambar diatas.
 
 
 -----------------------------------
