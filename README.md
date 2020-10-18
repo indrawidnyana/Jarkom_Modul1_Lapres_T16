@@ -178,7 +178,7 @@
 
 ![picture](https://cdn.discordapp.com/attachments/595644086975987712/767378033316986890/unknown.png)
 <br />
->Kemudian kami melakukakn display filter dengan syntax ```ftp contains "Microsoft"```.
+>Kemudian kami melakukakn display filter dengan syntax ```ftp contains "Microsoft"``` seperti pada gambar diatas.
 
 ![picture](https://cdn.discordapp.com/attachments/595644086975987712/767378562469593118/unknown.png)
 <br />
