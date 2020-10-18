@@ -168,6 +168,26 @@
 <br />
 >Setelah itu kami melakukan exctract dalam file dan mendapati file **Yes.pdf** ada di dalam file zip tersebut. Gambar puisi yang berisi di dalam file **Yes.pdf** dapat dilihat pada gambar diatas
 
+### Soal 8 :
+### Mencari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service
+## Jawab : 
+
+![picture](https://cdn.discordapp.com/attachments/595644086975987712/767377656332681226/unknown.png)
+<br />
+>Data sebelum dilakukan display filter.
+
+![picture](https://cdn.discordapp.com/attachments/595644086975987712/767378033316986890/unknown.png)
+<br />
+>Kemudian kami melakukakn display filter dengan syntax ```ftp contains "Microsoft"```.
+
+![picture](https://cdn.discordapp.com/attachments/595644086975987712/767378562469593118/unknown.png)
+<br />
+>Kemudian kami mendapatkan ip microsoft seperti pada gambar diatas.
+
+![pictures](https://cdn.discordapp.com/attachments/595644086975987712/767379040637026304/unknown.png)
+<br />
+>Setelah itu kami melakukan filter dengan syntax ```ftp.request.command contains "RETR" && ip.dst==198.246.117.106```. Dan gambar diatas merupakan objek unduhan yang kami temukan.
+
 ### Soal 10 :
 ### Mencari dan Mengunduh file .pdf di wireshark dengan clue "25 50 44 46" dan buka file .pdf tersebut 
 ## Jawab : 
