@@ -99,9 +99,18 @@
 <br />
 >Data yang awalnya sebelum dilakukan filter adalah seperti gambar diatas.
 
+![picture](https://media.discordapp.net/attachments/767120480167133215/767277753472122880/unknown.png)
+<br />
+>Kemudian kami melakukan filter dengan syntax ```ip.src == 157.245.50.224 || ip.dst == 157.245.50.224```, seperti pada gambar diatas. dan ```157.245.50.224``` merupakan ip dari aku.pengen.pw
 
+![picture](https://media.discordapp.net/attachments/767120480167133215/767278378474536970/unknown.png)
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767279256153620480/unknown.png)
+<br />
+>Kemudian kami menemukan username dan password melalui credential seperti pada gambar diatas.
 
-
+![picture](https://cdn.discordapp.com/attachments/767120480167133215/767279909721997339/unknown.png)
+<br />
+>Kemudian lakukan login ke website ```aku.pengen.pw``` dengan username dan password yang telah kami dapatkan. Dan isi jawaban seperti gambar diatas.
 
 ### Soal 6 :
 ### Mendownload dan mengextract suatu zip hingga mendapatkan file dengan nama **OpenThis.pdf**
